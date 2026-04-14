@@ -13,7 +13,7 @@
       <!-- Links -->
       <div class="flex items-center gap-6">
         <a
-          href="https://github.com"
+          href="https://github.com/acedehra/alexandria-tools"
           target="_blank"
           rel="noopener noreferrer"
           class="text-sm text-zinc-400 transition-colors hover:text-white"
