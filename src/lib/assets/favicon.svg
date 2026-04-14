@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Alexandria Tools">
+	<defs>
+		<linearGradient id="at-mark" x1="6" y1="5" x2="26" y2="27" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#34d399" />
+			<stop offset="1" stop-color="#059669" />
+		</linearGradient>
+	</defs>
+	<rect width="32" height="32" rx="8" fill="#09090b" />
+	<!-- Stylized A: clear at 16px -->
+	<path
+		fill="url(#at-mark)"
+		d="M16 6.5l7.2 19h-3.4l-1.6-4.5h-4.4L12.2 25.5H8.8L16 6.5zm0 6.8l-1.8 5.2h3.6L16 13.3z"
+	/>
+</svg>

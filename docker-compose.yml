@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  alexandria-tools:
+    image: acedehra/alexandria-tools:latest
+    container_name: alexandria-tools
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    labels:
+      - "com.alexandria.description=Alexandria Tools - Modern utility tools collection"
+      - "com.alexandria.version=1.0.0"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+
+/* Force dark mode globally */
+@theme {
+  --color-dark-bg: #0a0a0b;
+  --color-dark-card: #121214;
+  --color-dark-card-hover: #1a1a1d;
+  --color-dark-border: #27272a;
+  --color-dark-text: #fafafa;
+  --color-dark-text-muted: #a1a1aa;
+  --color-dark-accent: #10b981;
+  --color-dark-accent-hover: #34d399;
+}
+
+html {
+  background-color: #0a0a0b;
+  color: #fafafa;
+}

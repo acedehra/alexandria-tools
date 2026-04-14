@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+.DS_Store
+.env
+.env.*
+!.env.example
+dist
+.svelte-kit
+build
+.git
+.gitignore
+README.md
+*.log
+coverage
+.nyc_output
+wrangler.toml
