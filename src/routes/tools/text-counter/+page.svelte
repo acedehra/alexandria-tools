@@ -139,7 +139,7 @@
 
         <div class="rounded-lg border border-zinc-800 bg-zinc-900/50 p-4">
           <div class="text-3xl font-bold text-emerald-400">{counts.readingTime} min</div>
-          <div class="text-sm text-zinc-400">Reading Time</div>
+          <div class="text-sm text-zinc-400">Reading Time <span class="text-xs text-zinc-500">(200 wpm)</span></div>
         </div>
       </div>
     </div>
